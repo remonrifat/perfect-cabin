@@ -1,0 +1,14 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.carousel-contact
+{
+   
+        border: 2px solid black;
+        padding: 90px;
+        background-image: url(/images/bg1.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+      
+           
+        
+}
