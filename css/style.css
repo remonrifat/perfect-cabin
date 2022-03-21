@@ -19,6 +19,15 @@
         background-repeat: no-repeat;
         background-size: auto;     
 }
+.carousel-cart
+{
+   
+        border: 2px solid black;
+        padding: 90px;
+        background-image: url(/images/dark-bg-building.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;     
+}
 .carousel-gallery
 {
    
