@@ -19,7 +19,39 @@
         background-repeat: no-repeat;
         background-size: auto;     
 }
+
+
+.card-footer
+{
+   
+}
+
+
+@media only screen and (max-width: 500px) {
+   .card{
+      display: block;
+    
+
+   }
+ }
+ .topnav input[type=text] {
+   float: right;
+   padding: 6px;
+   border: none;
+   margin-top: 8px;
+   margin-right: 16px;
+   font-size: 17px;
+ }
 .carousel-cart
+{
+   
+        border: 2px solid black;
+        padding: 90px;
+        background-image: url(/images/dark-bg-building.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;     
+}
+.carousel-blog
 {
    
         border: 2px solid black;
