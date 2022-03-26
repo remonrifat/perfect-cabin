@@ -63,7 +63,7 @@ font-family: 'Vollkorn', serif;
 
 
     
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
    .container-fluid .logos
    {
       float: none;    
@@ -73,7 +73,7 @@ font-family: 'Vollkorn', serif;
 		max-width: none;
    }
    
-} */
+}
 
 .carousel-cart
 {
