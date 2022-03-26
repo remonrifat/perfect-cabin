@@ -26,40 +26,40 @@
             <a href="home.html" class="logos img-fluid m-3  "> <img class="rounded" style="margin-left: 40px;"
                     src="images/logoo.jpg" width="150px" alt="">
             </a>
-            <div class="headerhome  d-flex p-3 ">
-                <div class="m-3">
-                    <h5><i class="bi  bi-telephone m-2 "></i>+9394112473</h5>
+            <div class="  row  ">
+                <div class=" col-md-3">
+                    <h5><i class="bi  bi-telephone"></i>+9394112473</h5>
                 </div>
-                <div class="m-3">
-                    <h5><i class="bi bi-envelope m-2 "></i>info@perfectcabin.in</h5>
+                <div class=" col-md-5">
+                    <h5><i class="bi bi-envelope"></i>info@perfectcabin.in
                 </div>
-                <div class="m-3">
-                    <h5><i class="bi bi-house-door m-2 "></i>Hyderabad</h5>
+                <div class=" col-md-2">
+                    <h5><i class="bi bi-house-door"></i>Hyderabad</h5>
                 </div>
             </div>
-            <form class="d-flex">
+            <form class="">
                 <button class="btn btn-warning text-dark " style=" text-decoration: none; margin-right: 60px;"
                     type="submit"> <a href="/contact.html" style=" text-decoration: none">CONTACT</a> </button>
             </form>
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
-        <div class="container-fluid">
+        <div class="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse m-4 d-flex  " id="navbarNav">
+            <div class="collapse navbar-collapse m-4   " id="navbarNav">
                 <ul class="navbar-nav fw-bold ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/home.html">HOME</a>
                     </li>
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <div class="collapse navbar-collapse dropdown show" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-light" href="/about.html"
-                                    id="navbarlightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                    id="navbarlightDropdownMenuLink" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" data-bs-toggle="dropdown" aria-expanded="false">
                                     ABOUT
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark"
@@ -71,7 +71,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <div class="collapse navbar-collapse  dropdown show" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-light" href="/products.html"
@@ -95,14 +95,15 @@
                         <a class="nav-link active" style=" text-decoration: none" aria-current="page"
                             href="/contact.html">CONTACT</a>
                     </li>
-
                 </ul>
-
-
+                <input style="margin-left: 1000px;" class=" border-warning rounded " type="text " placeholder="Search">
+                <i class="bi bi-search text-warning">
+                </i>
             </div>
 
         </div>
     </nav>
+
 
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -132,33 +133,33 @@
 
     <h1 class="text-center p-5">Latest Products</h1>
 
-    <div class=" latest  d-flex  justify-content-center">
-        <div class="card m-4" style="width: 18rem;">
+    <div class="row" style="display:flex;justify-content: center;">
+        <div class=" col-md-4  card m-4 " style="width: 18rem;">
             <img src="images/latest1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">PORTABLE SHOP</h5>
                 <p class="card-text">Ask for Price</p>
-                <a href="#" class="btn btn-warning">VIEW DETAILS</a>
+                <a href="/portablecabin.html" class="btn btn-warning">VIEW DETAILS</a>
             </div>
             <br>
             <br>
         </div>
-        <div class="card m-4" style="width: 18rem;">
+        <div class="col-md-4  card m-4" style="width: 18rem;">
             <img src="images/latest2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">PORTABLE WAREHOUSE, PORTABLE CABIN
                 </h5>
                 <p class="card-text">Ask for Price</p>
-                <a href="#" class="btn btn-warning">VIEW DETAILS</a>
+                <a href="/securitycabin.html" class="btn btn-warning">VIEW DETAILS</a>
             </div>
         </div>
-        <div class="card m-4" style="width: 18rem;">
+        <div class="col-md-4   card m-4" style="width: 18rem;">
             <img src="images/latest3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">OFFICE SECURITY CABIN
                 </h5>
                 <p class="card-text"> Ask for Price</p>
-                <a href="#" class="btn btn-warning">VIEW DETAILS</a>
+                <a href="/securitycabin.html" class="btn btn-warning">VIEW DETAILS</a>
             </div>
         </div>
     </div>
@@ -166,21 +167,19 @@
 
 
 
-    <div class="bg-dark d-flex p-5 justify-content-center">
-        <div class="card border border-warning border-4 justify-content-center    bg-secondary " style="width: 23rem;">
-            <div class="card-body pt-5">
-                <h3 class="card-title text-light">Contact Details</h3>
+    <div class="row bg-dark p-5 " style="display:flex;justify-content: center;">
+        <div class="card border border-warning border-4 justify-content-center  bg-secondary " style="width: 23rem;">
+            <div class="card-body pt-5 col-md-9">
+                <h3 class="card-title text-light ">Contact Details</h3>
                 <p class="card-text text-light">Please find below contact details and contact us today!</p>
                 <h6 class="text-light"><i class="bi bi-telephone-fill"></i>Phone: +91 9394112473</h6>
-                <br>
                 <h6 class="text-light"><i class="bi bi-envelope-fill"></i>info@perfectcabin.in</h6>
-                <br>
                 <h6 class="text-light"><i class="bi bi-house-fill"></i>Abdullapurmet Hyderabad</h6>
             </div>
         </div>
 
-        <div class=" p-5 ">
-            <h1 class="text-light bg-dark m-4">CONTACT US</h1>
+        <div class=" p-5 col-md-4 " style="margin-right: 60px;">
+            <h1 class="text-light bg-dark m-4 col-md-4">CONTACT US</h1>
             <div class="m-3 d-flex">
                 <div class="col-9  ">
                     <input type="text" class="form-control" placeholder="First Name" aria-label="First Name">
@@ -190,7 +189,7 @@
                 </div>
             </div>
             <div class="m-3 d-flex">
-                <div class="col-9">
+                <div class="col-9 ">
                     <input type="text" class="form-control" placeholder="Last Name" aria-label="last name">
                 </div>
                 <div class="col-9">
@@ -207,21 +206,21 @@
     </div>
 
     <h1 class="text-center p-5">Our Gallery</h1>
-    <div class="  d-flex justify-content-center p-1">
+    <div class=" row  justify-content-center p-1">
 
-        <div class="card m-4 " style="width: 18rem;">
+        <div class="card m-4 col-md-4 shadow " style="width: 18rem;">
             <a href="/album1.html"> <img src="images/gallary1.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <p class="card-text text-warning fw-bold ">PORTABLE CABINS</p>
             </div>
         </div>
-        <div class="card m-4" style="width: 18rem;">
+        <div class="card m-4 col-md-4 shadow" style="width: 18rem;">
             <a href="/album2.html"> <img src="images/gallary2.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <p class="card-text text-warning fw-bold">PORTABLE SECURITY CABINS</p>
             </div>
         </div>
-        <div class="card m-4" style="width: 18rem;">
+        <div class="card m-4 col-md-4 shadow" style="width: 18rem;">
             <a href="/album3.html"> <img src="images/gallary3.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
                 <p class="card-text text-warning fw-bold">PORTABLE FARM HOUSE CABINS</p>
@@ -229,9 +228,9 @@
         </div>
     </div>
     <h1 class="text-center p-5">Latest From Our Blog</h1>
-    <div class="d-flex justify-content-center p-1">
+    <div class="row justify-content-center p-1">
 
-        <div class="card m-4" style="width: 18rem;">
+        <div class="card m-4 col-md-4 shadow" style="width: 18rem;">
             <img src="images/latestblog1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text text-dark fw-bold  ">Portable Site Office Cabins</p>
@@ -242,7 +241,7 @@
                 </a>
             </div>
         </div>
-        <div class="card m-4" style="width: 18rem;">
+        <div class="card m-4 col-md-4 shadow" style="width: 18rem;">
             <img src="images/latestblog2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text text-dark fw-bold ">Portable Cabins</p>
@@ -253,7 +252,7 @@
                 </a>
             </div>
         </div>
-        <div class="card m-4" style="width: 18rem;">
+        <div class="card m-4 col-md-4 shadow" style="width: 18rem;">
             <img src="images/latestblog3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text text-dark fw-bold ">Multi Story Portable Cabins</p>
@@ -277,37 +276,41 @@
             <input type="radio" name="slider" id="slide2">
             <div id="slides">
                 <div id="overflow">
-                    <div class="inner">
-                        <div class="slide slide_1">
-                            <div class="slide-content">
+                    <div class="inner  ">
+                        <div class="slide slide_1 ">
+                            <div class="slide-content col-md-4">
                                 <h2>Raju</h2>
-                                <p>Best toilets cabin at low cost</p>
+                                <p class=" ">Best toilets cabin at low cost</p>
                                 <span class="fa fa-star "></span>
                                 <span class="fa fa-star "></span>
                                 <span class="fa fa-star "></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
-                                <br>
-                                <br>
-                                <br>
-                                <p class=" p-5 container">One of the best manufacturers for Toilet Cabin with reasonable
+
+                                <p class="m-4">One of the best manufacturers </p>
+                                <p>for Toilet Cabin with
+                                    reasonable
                                     price</p>
                             </div>
                         </div>
                         <div class="slide slide_2">
                             <div class="slide-content">
                                 <h2>Girish</h2>
-                                <p>Best portable cabin manufacturers in Hyderabad</p>
-                                <span class="fa fa-star "></span>
-                                <span class="fa fa-star "></span>
-                                <span class="fa fa-star "></span>
+                                <p class=" ">Best portable cabin manufacturers in Hyderabad</p>
+
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
                                 <br>
                                 <br>
+                                <p class="  m-4 ">Easily one of the best portable cabin</p> <br>
+                                <p>manufacturers in
+                                    Hyderabad</p>
                                 <br>
                                 <br>
-                                <p class="  p-4">Easily one of the best portable cabin manufacturers in Hyderabad</p>
+
                             </div>
                         </div>
 
@@ -330,13 +333,12 @@
 
 
 
-        <div class="border rounded ">
-            <nav class="navbar navbar-light bg-warning p-5">
-                <div class="container-fluid">
-                    <a class="navbar-brand text-white text-center fw-bold ">Looking for a quality and affordable
-                        Services
-                        for
-                        your next project?</a>
+        <div class="border rounded row ">
+            <nav class="navbar navbar-light bg-warning p-5 ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand text-white  fw-bold  ">
+                        <p>Looking for a Services for your next project?</p>
+                    </a>
                     <form class="">
                         <button class="btn btn-dark text-white border-white" type="submit"> <a href="/contact.html"
                                 style=" text-decoration: none">Contact Us</a> </button>
@@ -348,9 +350,9 @@
     </div>
 
     <!-- --footer-->
-    <div class="cardfooter d-flex justify-content-center p-5 bg-dark text-white ">
+    <div class="cardfooter row justify-content-center p-5 bg-dark text-white ">
 
-        <div class="card bg-dark m-2" style="width: 25rem">
+        <div class="card bg-dark m-2 col-md-4" style="width: 25rem">
             <div class="card-body">
                 <h3>PERFECT CABIN PVT LTD</h3>
                 <hr>
@@ -361,7 +363,7 @@
                 <p>CONTACT US</p>
             </div>
         </div>
-        <div class="card bg-dark m-2" style="width: 25rem">
+        <div class="card bg-dark m-2 col-md-4" style="width: 25rem">
             <div class="card-body">
                 <h3>NEWSLETTER</h3>
                 <hr>
@@ -374,7 +376,7 @@
                 <button type="button" class="btn btn-outline-warning">SUBSCRIBE</button>
             </div>
         </div>
-        <div class="card bg-dark m-2" style="width: 25rem">
+        <div class="card bg-dark m-2 col-md-4" style="width: 25rem">
             <div class="card-body">
                 <h3>GET IN TOUCH</h3>
                 <hr style="width:50%;text-align:left;margin-left:0">

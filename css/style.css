@@ -35,10 +35,7 @@ font-family: 'Vollkorn', serif;
         background-repeat: no-repeat;
         background-size: auto;     
 }
-.card-footer
-{
-   
-}
+
 @media only screen and (max-width: 500px) {
    .body{
       margin:0;
@@ -46,10 +43,27 @@ font-family: 'Vollkorn', serif;
       overflow-x:hidden;
    }
 }
-@media only screen and (max-width: 500px) {
-     
+
+/* @media only screen and  (max-width: 500px) {
+   .dropdown-menu {
+     right: 0;
+     width: 100%;
    }
-@media only screen and (max-width: 500px) {
+   .aboutnav {
+     position: static;
+   }
+ } */
+
+
+
+
+
+
+
+
+
+    
+/* @media only screen and (max-width: 500px) {
    .container-fluid .logos
    {
       float: none;    
@@ -59,12 +73,8 @@ font-family: 'Vollkorn', serif;
 		max-width: none;
    }
    
-}
-@media only screen and (max-width: 500px) {
-   .card{
-      /* display: block; */
-   }
- }
+} */
+
 .carousel-cart
 {
    
@@ -230,3 +240,7 @@ font-family: 'Vollkorn', serif;
            margin: 0 auto;
         }
      }
+
+
+
+
