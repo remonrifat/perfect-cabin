@@ -18,40 +18,40 @@
             <a href="home.html" class="logos img-fluid m-3  "> <img class="rounded" style="margin-left: 40px;"
                     src="images/logoo.jpg" width="150px" alt="">
             </a>
-            <div class="headerhome  d-flex p-3 ">
-                <div class="m-3">
-                    <h5><i class="bi  bi-telephone m-2 "></i>+9394112473</h5>
+            <div class="  row  ">
+                <div class=" col-md-3">
+                    <h5><i class="bi  bi-telephone"></i>+9394112473</h5>
                 </div>
-                <div class="m-3">
-                    <h5><i class="bi bi-envelope m-2 "></i>info@perfectcabin.in</h5>
+                <div class=" col-md-5">
+                    <h5><i class="bi bi-envelope"></i>info@perfectcabin.in
                 </div>
-                <div class="m-3">
-                    <h5><i class="bi bi-house-door m-2 "></i>Hyderabad</h5>
+                <div class=" col-md-2">
+                    <h5><i class="bi bi-house-door"></i>Hyderabad</h5>
                 </div>
             </div>
-            <form class="d-flex">
+            <form class="">
                 <button class="btn btn-warning text-dark " style=" text-decoration: none; margin-right: 60px;"
                     type="submit"> <a href="/contact.html" style=" text-decoration: none">CONTACT</a> </button>
             </form>
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
-        <div class="container-fluid">
+        <div class="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse m-4 d-flex  " id="navbarNav">
+            <div class="collapse navbar-collapse m-4   " id="navbarNav">
                 <ul class="navbar-nav fw-bold ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/home.html">HOME</a>
                     </li>
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <div class="collapse navbar-collapse dropdown show" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-light" href="/about.html"
-                                    id="navbarlightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                    id="navbarlightDropdownMenuLink" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" data-bs-toggle="dropdown" aria-expanded="false">
                                     ABOUT
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark"
@@ -63,7 +63,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <div class="collapse navbar-collapse  dropdown show" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-light" href="/products.html"
@@ -87,10 +87,10 @@
                         <a class="nav-link active" style=" text-decoration: none" aria-current="page"
                             href="/contact.html">CONTACT</a>
                     </li>
-
                 </ul>
-
-
+                <input style="margin-left: 1000px;" class=" border-warning rounded " type="text " placeholder="Search">
+                <i class="bi bi-search text-warning">
+                </i>
             </div>
 
         </div>
@@ -106,72 +106,99 @@
     <br>
     <br>
 
-    <div class="   justify-content-center p-5 m-5 ">
-        <div class=" row ">
-            <h1 class="  text-center">We'd Love To Hear From You</h1>
-            <div class="  d-flex">
-                <div class="p-5 ">
-                    <div class="col-12">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+
+
+
+    <div class="row justify-content-center d-flex">
+        <div class="col-md-6 p-5">
+            <div class=" row ">
+                <h1 class="p-5">We'd Love To Hear From You</h1>
+                <div class="d-flex">
+                    <div class="p-5">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <br>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
                     </div>
-                    <br>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <div class="p-5">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="First name">
+                        </div>
+                        <br>
+                        <div class="col">
+                            <input type="tel" class="form-control" placeholder="Mobile" aria-label="Last name">
+                        </div>
                     </div>
                 </div>
-                <div class="p-5">
-                    <div class="col">
-                        <input type="email" class="form-control" placeholder="Email" aria-label="First name">
+                <div class="  p-2 m-5 ">
+                    <div class="form-group col-7">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control " placeholder="Message" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
                     </div>
                     <br>
-                    <div class="col">
-                        <input type="tel" class="form-control" placeholder="Mobile" aria-label="Last name">
-                    </div>
+                    <button type="button" class="btn btn-outline-secondary  ">Submit</button>
                 </div>
+
             </div>
-            <div class="  p-2 m-4 ">
-                <input type="message" class="form-control p-5" placeholder="Message" aria-label="First Name">
+        </div>
+        <div class="col-md-6 p-5">
+            <div>
+                <h1 class="  text-center">Get In Touch</h1>
+                <strong><i class="bi bi-telephone-fill m-2"></i> Phone:</strong> +91 9394112473
                 <br>
-                <button type="button" class="btn btn-outline-secondary  ">Submit</button>
+                <strong> <i class="bi bi-envelope-fill m-2"></i> Email:</strong> info@perfectcabin.in
+                <br>
+                <strong> <i class="bi bi-geo-alt-fill m-2"></i>Address:</strong> Survey No. 233/4, Beside Ramoji Film
+                City
+                Abdullapurmet Hyderabad India - 501505
+                501505
+                <br>
+                <br>
+                <h1 class="text-center">Our Branches</h1>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <strong>Factory:</strong> Survey No. 233/4, beside Ramoji Film City,Abdullapurmet, R.R.
+                    Dist, Telangana-501 505.
+                </p>
+                <br>
+                <p><i class="bi bi-geo-alt-fill"></i>
+                    <strong>Factory:</strong> Survey No. 521, Near Vandana Hotel, Warangal Highway. Ghatkesar, Medchal
+                    Dist,
+                    Hyderabad, Telangana-501 301.
+                </p>
+                <br>
+                <p><i class="bi bi-geo-alt-fill"></i>
+                    <strong>Factory:</strong> Survey No. 257,Nagarjuna Sagar Highway, Sheriguda Village, Ibrahimpatnam
+                    <br>
+                    Mandal, Rangareddy District, Telangana-501 510.
+                </p>
+                <br>
+                <p><i class="bi bi-geo-alt-fill"></i>
+                    <strong>Factory:</strong> Survey No. 385, Beside Govt. primary Schoo;, Kalanagar,
+                    Pasumamla Village, Pedamberpet,
+                    <br> Hayath Nagar,
+                    Ranga Reddy Dist. Telangana-501 505.
+                </p>
+
             </div>
 
         </div>
-        <div>
-            <h1 class="  text-center">Get In Touch</h1>
-            <strong><i class="bi bi-telephone-fill m-2"></i> Phone:</strong> +91 9394112473
-            <br>
-            <strong> <i class="bi bi-envelope-fill m-2"></i> Email:</strong> info@perfectcabin.in
-            <br>
-            <strong> <i class="bi bi-geo-alt-fill m-2"></i>Address:</strong> Survey No. 233/4, Beside Ramoji Film City
-            Abdullapurmet Hyderabad India - 501505
-            501505
-            <br>
-            <br>
-            <h1 class="text-center">Our Branches</h1>
-            <p>
-                <i class="bi bi-geo-alt-fill"></i>
-                <strong>Factory:</strong> Survey No. 233/4, beside Ramoji Film City,Abdullapurmet, R.R.
-                Dist, Telangana-501 505.
-            </p>
-            <br>
-            <p><i class="bi bi-geo-alt-fill"></i>
-                <strong>Factory:</strong> Survey No. 521, Near Vandana Hotel, Warangal Highway. Ghatkesar, Medchal Dist,
-                Hyderabad, Telangana-501 301.
-            </p>
-            <br>
-            <p><i class="bi bi-geo-alt-fill"></i>
-                <strong>Factory:</strong> Survey No. 257,Nagarjuna Sagar Highway, Sheriguda Village, Ibrahimpatnam <br>
-                Mandal, Rangareddy District, Telangana-501 510.
-            </p>
-            <br>
-            <p><i class="bi bi-geo-alt-fill"></i>
-                <strong>Factory:</strong> Survey No. 385, Beside Govt. primary Schoo;, Kalanagar,
-                Pasumamla Village, Pedamberpet,
-                <br> Hayath Nagar,
-                Ranga Reddy Dist. Telangana-501 505.
-            </p>
+    </div>
 
-        </div>
+
+
+
+
+
+
+
+
+    <div class="   justify-content-center p-5 m-5 ">
+
 
     </div>
 
@@ -181,21 +208,20 @@
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     <!-- --footer-->
-    <div class="d-flex justify-content-center p-5 bg-dark text-white">
+    <div class="cardfooter row justify-content-center p-5 bg-dark text-white ">
 
-        <div class="card bg-dark" style="width: 25rem;">
+        <div class="card bg-dark m-2 col-md-4" style="width: 25rem">
             <div class="card-body">
                 <h3>PERFECT CABIN PVT LTD</h3>
                 <hr>
-                <p>HOME</p>
+                <p><a href="/home.html" class="text-white " style=" text-decoration: none">HOME</a></p>
                 <p>PRODUCTS</p>
                 <p>SITEMAP</p>
-
                 <p>ABOUT US </p>
                 <p>CONTACT US</p>
             </div>
         </div>
-        <div class="card bg-dark" style="width: 25rem;">
+        <div class="card bg-dark m-2 col-md-4" style="width: 25rem">
             <div class="card-body">
                 <h3>NEWSLETTER</h3>
                 <hr>
@@ -208,7 +234,7 @@
                 <button type="button" class="btn btn-outline-warning">SUBSCRIBE</button>
             </div>
         </div>
-        <div class="card bg-dark" style="width: 25rem;">
+        <div class="card bg-dark m-2 col-md-4" style="width: 25rem">
             <div class="card-body">
                 <h3>GET IN TOUCH</h3>
                 <hr style="width:50%;text-align:left;margin-left:0">
@@ -238,6 +264,7 @@
             <a href=""><i class="bi bi-google rounded"></i></a>
         </div>
     </nav>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
